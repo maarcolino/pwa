@@ -1,0 +1,20 @@
+{
+  "name": "Web app",
+  "short_name": "PWA",
+  "start_url": "/pwa/", // GITHUB É NECESSÁRIO O NOME DO REPO, EX /PWA/
+  "display": "standalone", // fullscreen, minimal-ui, browser
+  //"orientation": "portrait",
+
+  "icons": [
+    {
+      "src": "hal192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "hal512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
